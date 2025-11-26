@@ -7,6 +7,7 @@ LABEL maintainer="Andy Deng <andy.z.deng@gmail.com>"
 RUN apt-get update && \
     apt-get -y upgrade && \
     apt-get install -y \
+        iputils-ping \
         lsof \
         net-tools \
         telnet \
